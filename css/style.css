@@ -1,30 +1,40 @@
-.col-xs-12{
-  height: 50px;
-  background: red;
-}
-
-#main{
-  background: #e7e7e7;
-  border: 2px solid black;
-  height: 100px;
-}
-
-#sidebar{
-  background: white;
-  border: 2px solid black;
-  height: 100px;
-}
-
-.col-xs-3{
-  background: black;
-  color: white;
-  border: 2px solid white;
-  height: 300px;
-}
-/*SUB CONTENT*/
-
-#sub-content{
-  height: 25px;
+.container{
   background: yellow;
-  
+  padding: 80px 20px 40px 20px;
+}
+
+#header{
+  height: 150px;
+  background: blue;
+  border: 2px solid black;
+}
+
+#nav{
+  background: green;
+  border: 2px solid black;
+  height: 50px;
+}
+
+#content{
+  background: red;
+  border: 2px solid black;
+  height: 200px;
+}
+
+#aside{
+  background: cyan;
+  border: 2px solid black;
+  height: 200px;
+}
+
+#promo1{
+  background: orange;
+  border: 2px solid black;
+  height: 150px;
+}
+
+#footer{
+  background: black;
+  border: 2px solid black;
+  height: 50px;
 }
