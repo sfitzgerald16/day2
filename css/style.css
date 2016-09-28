@@ -1,4 +1,4 @@
-.container{
+#main{
   background: yellow;
   padding: 80px 20px 40px 20px;
 }
@@ -37,4 +37,13 @@
   background: black;
   border: 2px solid black;
   height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  #header{background: purple;}
+
+}
+
+@media screen and (max-width: 375px) {
+  #header{background: pink;}
 }
